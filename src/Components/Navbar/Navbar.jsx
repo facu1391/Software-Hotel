@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <section>
         <div className="flex items-center justify-center navbar bg-base-100">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-6 cursor-pointer">
                 <img src={logo} alt="logo" />
             </div>
             <div>
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <a className="btn btn-ghost text-lg">Solution</a>
                 <a className="btn btn-ghost text-lg">FAQ</a>
             </div>
-            <div className="flex items-center ml-6">
+            <div className="flex items-center ml-6 cursor-pointer">
                 <img src={iconoPer} alt="" />
             </div>
         </div>
